@@ -48,11 +48,23 @@
 
 
 
-        <!-- <dependency>
+         <dependency>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-starter-data-jpa</artifactId>
                 </dependency>
 
+      <!--  <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+
+        &lt;!&ndash; https://mvnrepository.com/artifact/com.zaxxer/HikariCP &ndash;&gt;
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>3.4.2</version>
+        </dependency>
+-->
 
                 <dependency>
                     <groupId>org.postgresql</groupId>
@@ -60,7 +72,7 @@
                     <scope>runtime</scope>
                 </dependency>
 
-                <dependency>
+               <!-- <dependency>
                     <groupId>io.springfox</groupId>
                     <artifactId>springfox-swagger2</artifactId>
                     <version>2.9.2</version>
